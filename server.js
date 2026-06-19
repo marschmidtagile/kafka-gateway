@@ -10,7 +10,7 @@ const API_KEY = "my-secret-key";
 
 // ✅ ROOT (health check)
 app.get('/', (req, res) => {
-    res.send("Kafka Gateway running ✅");
+    res.send("Kafka Gateway running using private network✅");
 });
 
 // ✅ PRODUCER ENDPOINT
