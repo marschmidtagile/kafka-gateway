@@ -5,7 +5,7 @@ const app = express();
 app.use(express.json());
 
 // ✅ CONFIG
-const KAFKA_REST_URL = "https://cp-kafka-rest-production-ba84.up.railway.app";
+const KAFKA_REST_URL = "http://cp-kafka-rest.railway.internal:8082";
 const API_KEY = "my-secret-key";
 
 // ✅ ROOT (health check)
